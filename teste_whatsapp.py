@@ -1,12 +1,12 @@
 from twilio.rest import Client
 
 # Substitua com suas credenciais reais do Twilio
-TWILIO_ACCOUNT_SID = "ACbac8e876462c1b07dd1f611a9c4c1575"
-TWILIO_AUTH_TOKEN = "101c916e9656f4f2e02d74e93a2a256d"
+TWILIO_ACCOUNT_SID = "xxxxxxxxxxxxxx5"
+TWILIO_AUTH_TOKEN = "1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # Sandbox Twilio WhatsApp
-TWILIO_WHATSAPP_NUMBER = "whatsapp:+14155238886"
-DESTINATARIO_WHATSAPP = "whatsapp:+5511949595295"  # Seu número com DDI
+TWILIO_WHATSAPP_NUMBER = "whatsapp:xxxxxxxxxxxxxxxxxxx"
+DESTINATARIO_WHATSAPP = "whatsapp:+xxxxxxxxxxxxxxxxxxxx5"  # Seu número com DDI
 
 def enviar_mensagem_teste():
     try:
